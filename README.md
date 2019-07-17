@@ -1,5 +1,4 @@
-# fdcap - Linux 截屏工具  
-[![Travis CI Build Status](https://www.travis-ci.org/tangta789/linux-app-fdcap.svg)](https://www.travis-ci.org/tangta789/linux-app-fdcap)
+# fdcap - Linux 截屏工具 [![Travis CI Build Status](https://www.travis-ci.org/tangta789/linux-app-fdcap.svg)](https://www.travis-ci.org/tangta789/linux-app-fdcap)   
 >该工具仅做键Linux 截屏功能，直接将显示设备 '/dev/fb0' 中的数据保存成bmp格式。  
 ## Usage  
 >  fdcap [-d DEV] [FILE_NAME]  
