@@ -21,7 +21,6 @@ addons:
 script: 
     - make
 install: 
-    - install --help
     - DESTDIR=`pwd`/out make install
 after_success:
     - echo "Nothing todo"
