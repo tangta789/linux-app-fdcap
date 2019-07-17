@@ -1,0 +1,28 @@
+os:
+    - linux
+
+language: cpp
+env:
+    global:
+        - secure: ""
+
+sudo: false
+
+addons:
+    apt:
+        sources:
+            - ubuntu-toolchain-r-test
+        packages:
+            - gcc-5
+            - g++-5
+            - xorg-dev
+            - lib32stdc++6 # For CMake
+            - lftp # To upload builds
+
+
+install: 
+    - make install
+script: 
+    - make
+after_success:
+    - echo "Nothing todo"
