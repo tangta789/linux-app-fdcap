@@ -3,5 +3,5 @@ all:fdcap.c
 clean:
 	rm -rf fdcap
 install:all
-	$(INSTALL) -D $(DESTDIR)/usr/bin/
-	$(INSTALL) 0755 fdcap $(DESTDIR)/usr/bin/
+	install -D $(DESTDIR)/usr/bin/
+	install 0755 fdcap $(DESTDIR)/usr/bin/
